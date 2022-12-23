@@ -7,6 +7,7 @@ int min(int a, int b, int c, int d)
     if (c < a && c < b && c < d) return min(c, a, b, d);
     if (d < a && d < b && d < c) return min(d, a, b, c);
 }
+
 int main(int argc, char* argv[])
 {
     int a = 0;
@@ -16,8 +17,6 @@ int main(int argc, char* argv[])
     std::cin >> a >> b >> c >> d;
     std::cout << min(a, b, c, d);
     return EXIT_SUCCESS;
-    
-    
 }
 
 

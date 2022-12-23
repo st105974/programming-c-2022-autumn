@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -14,11 +12,7 @@ int main(int argc, char* argv[])
     {
         std::cout << "NO";
     }
-    
-    
     return EXIT_SUCCESS;
-
-
 }
 
 

@@ -1,11 +1,9 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
     int n = 0;
-    int a[100];
+    int a[100] {0};
     int m = 0;
     int k1 = 0;
     int k2 = 0;
@@ -23,8 +21,7 @@ int main(int argc, char* argv[])
             std::cout << a[j] << ' ';
         }
         std::cout << std::endl;
-
     }
-
+    return EXIT_SUCCESS;
 }
 

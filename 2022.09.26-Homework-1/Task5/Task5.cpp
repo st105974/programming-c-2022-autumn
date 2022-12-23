@@ -1,10 +1,12 @@
 #include <iostream>
+
 int main(int argc, char* argv[])
 {
 	int a = 0;
-	int b = 0;
+	int sum = 0;
 	std::cin >> a;
-	b = a + 2 - a % 2;
-	std::cout << b << std::endl;
+	sum = a % 10 + a / 10 % 10 + a / 100 % 10;
+	std::cout << sum << std::endl;
 	return EXIT_SUCCESS;
+
 }

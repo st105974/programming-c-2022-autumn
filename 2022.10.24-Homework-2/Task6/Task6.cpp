@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -9,7 +7,7 @@ int main(int argc, char* argv[])
     int y1 = 0;
     int y2 = 0;
     std::cin >> x1 >> y1 >> x2 >> y2;
-    if ((x1 == x2) || (y1 == y2) || (-x1 + 9 == y1 && -x2 + 9 == y2) || (x1 = y1 && x2 == y2))
+    if ((x1 == x2) || (y1 == y2) || (-x1 + 9 == y1 && -x2 + 9 == y2) || (x1 == y1 && x2 == y2))
     {
         std::cout << "YES";
     }

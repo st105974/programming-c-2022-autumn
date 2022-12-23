@@ -1,12 +1,10 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
     int n = 0;
     std::cin >> n;
-    int a[100];
+    int a[100]{0};
     int ans = 0;
     for (int i = 0; i < n; i++)
     {
@@ -22,6 +20,7 @@ int main(int argc, char* argv[])
         }
     }
     std::cout << ans;
+    return EXIT_SUCCESS;
 }
 
 

@@ -18,14 +18,7 @@ int main(int argc, char* argv[])
         }
     }
     std::cout << max;
-
     return EXIT_SUCCESS;
-
-
-
-
-
-       
 }
 
 

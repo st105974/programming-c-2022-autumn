@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -28,10 +26,6 @@ int main(int argc, char* argv[])
         std::cout << "the triangle does not exist";
     }
     return EXIT_SUCCESS;
-
-   
-
-    
 }
 
 

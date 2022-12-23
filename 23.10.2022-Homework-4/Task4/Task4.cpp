@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argv, char* argc[])
 {
@@ -18,9 +16,7 @@ int main(int argv, char* argc[])
             count++;
         }
     }
-    std::cout << count;
-
-    
+    std::cout << count;   
     return EXIT_SUCCESS;
 }
 

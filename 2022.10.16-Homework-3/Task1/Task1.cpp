@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -10,8 +8,7 @@ int main(int argc, char* argv[])
     while (b > a)
     {
         std::cout << a << std::endl;
-        a ++;
+        a++;
     }
     return EXIT_SUCCESS;
 }
-

@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int atgc, char* argv[])
 {
@@ -63,8 +61,6 @@ int main(int atgc, char* argv[])
                 std::cout << a[i];
             }
     }
-
-    
     return EXIT_SUCCESS;
 }
 

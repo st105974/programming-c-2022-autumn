@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main()//a = k; st = b; i = c
 {
@@ -20,7 +18,6 @@ int main()//a = k; st = b; i = c
 		a = b;
 	} while (b <= n);
 	return EXIT_SUCCESS;
-    
 }
 
 

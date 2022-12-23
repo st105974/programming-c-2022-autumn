@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -19,16 +18,8 @@ int main(int argc, char* argv[])
         {
             count++;
         }
-    }
-    
+    }    
     std::cout << count;
-    
     return EXIT_SUCCESS;
-    
-    
-    
-
-
-
 }
 

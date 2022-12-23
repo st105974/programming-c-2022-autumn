@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -19,11 +17,7 @@ int main(int argc, char* argv[])
     {
         std::cout << x << " " << y + 1 << std::endl;
         std::cout << x << " " << y - 1 << std::endl;
-    }
-    
-    
-    return EXIT_SUCCESS;
-    
-    
+    }  
+    return EXIT_SUCCESS;   
 }
 

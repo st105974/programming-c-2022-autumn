@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -17,14 +15,10 @@ int main(int argc, char* argv[])
         k = a[i];
         a[i] = a[n - i - 1];
         a[n - i - 1] = k;
-
     }
     for (int i = 0; i < n; i++)
     {
         std::cout << a[i] << " ";
     }
-
     return EXIT_SUCCESS;
-
-
 }

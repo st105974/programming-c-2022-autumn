@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -23,11 +21,7 @@ int main(int argc, char* argv[])
         
         
     } while (k <= n);
-    return EXIT_SUCCESS
- 
-
-    
-    
+    return EXIT_SUCCESS    
 }
 
 

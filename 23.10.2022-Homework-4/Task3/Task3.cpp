@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argv, char* argc[])
 {
@@ -15,8 +13,6 @@ int main(int argv, char* argc[])
             k++;
         }
     }
-    
-
     return EXIT_SUCCESS;
 }
 

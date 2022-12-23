@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -7,7 +6,7 @@ int main(int argc, char* argv[])
 	int k = 0;
 	int m = 0;
 	std::cin >> n >> k >> m;
-	if (n = k)
+	if (n == k)
 	{
 		std::cout << 2 * m * k;
 	}
@@ -21,8 +20,8 @@ int main(int argc, char* argv[])
 		{
 			std::cout << 2 * m * (n / k) + 2 * m * (n % k);
 		}
-		return EXIT_SUCCESS;
 	}
+	return EXIT_SUCCESS;
 }
 
 

@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main(int argc, char* argv[])
 {
@@ -29,7 +27,7 @@ int main(int argc, char* argv[])
 	case 8: std::cout << "vosem'desyat "; break;
 	case 9: std::cout << "devyanosto "; break;
 	}
-	if (n % 100 >= 10 & n % 100 < 20)
+	if (n % 100 >= 10 && n % 100 < 20)
 	{
 		switch (n % 100) 
 		{
@@ -90,5 +88,4 @@ int main(int argc, char* argv[])
 		std::cout << "bananov";
 	}
 	return EXIT_SUCCESS;
-
 }
