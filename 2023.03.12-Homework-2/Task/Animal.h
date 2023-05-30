@@ -19,6 +19,5 @@ public:
 	void PrintInfo();
 	void Mighter();
 	~Animal();
-
 };
 

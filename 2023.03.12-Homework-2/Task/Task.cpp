@@ -81,8 +81,7 @@ int main(int argc, char*argv[])
     }
     std::cout << "winner: ";
     match(punk, 100).PrintInfo();
-
-
+    return EXIT_SUCCESS;
 }
 
 

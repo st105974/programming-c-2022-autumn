@@ -31,5 +31,4 @@
 	{
 		this->strength += 1;
 	}
-
 	Animal::~Animal(){}
